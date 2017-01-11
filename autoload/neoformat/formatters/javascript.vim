@@ -39,6 +39,6 @@ endfunction
 function! neoformat#formatters#javascript#prettier() abort
     return {
         \ 'exe': 'prettier',
-        \ 'args': '--single-quote'
+        \ 'args': ['--single-quote']
         \ }
 endfunction
